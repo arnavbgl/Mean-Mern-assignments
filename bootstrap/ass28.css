@@ -1,0 +1,24 @@
+
+.container-fluid{
+    border: 4px solid gold;
+}
+.row{
+    border: 5px solid greenyellow;
+
+}
+.container{
+    border: 4px solid rgb(255, 0, 0);
+    
+}
+.col{
+    border:3px solid red;
+}
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+.aqua{
+    background-color: aqua;
+}

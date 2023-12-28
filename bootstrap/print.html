@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+body {
+background-image: url(signup.webp);
+background-color: yellow;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+h1{
+color: white;
+text-decoration: underline;
+font-family: cursive;
+}
+form {
+background-image: url(https://marketplace.canva.com/EAFq4LF-YJg/1/0/900w/canva-pinkwatercolor-
+instagram-story-background-uS8QA4tnBqU.jpg);
+background-color: white;
+max-width: 500px;
+margin: 50px auto;
+padding: 30px 20px;
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0, 0, 5);
+}
+.form-control{
+text-align: left;
+margin-bottom: 25px;
+}
+.form-control label {
+display: block;
+margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+border: 1px solid #777;
+border-radius: 2px;
+font-family: inherit;
+padding: 10px;
+display: block;
+width: 95%;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+display: inline-block;
+width: auto;
+}
+button {
+background-color: red;
+border: 1px solid #777;
+border-radius: 10px;
+font-family: inherit;
+font-size: 21px;
+display: block;
+margin-left: 200px;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+button:hover{
+background-color: rgb(167,72, 72);
+}
+</style>
+</head>
+<body>
+<h1>Code Learner Survey Form</h1>
+<form id="form">
+<div class="form-control">
+<label for="name" id="label-name">
+Name
+</label>
+<input type="text" id="name" placeholder="enter your name" />
+</div>
+<div class="form-control">
+<label for="email" id="label-eamil">
+Email
+</label>
+<input type="email" id="email" placeholder="enter your email" />
+</div>
+<div class="form-control">
+<label for="age" id="label-age">Age</label>
+<input type="number" id="age" placeholder="enter your age">
+</div>
+<div class="form-control">
+<label for="role" id="lable-role">which option best describve you?</label>
+<select name="role" id="role">
+<option value="student">student</option>
+<option value="intern">intern</option>
+<option value="professional">professional</option>
+<option value="other">other</option>
+</select>
+</div>
+<div class="form-control">
+<label>
+would you recommend for geeksforgeeks
+</label>
+<label for="recommend-1">
+<input type="radio" id="recommend">Yes
+</label>
+<label for="recommend-2">
+<input type="radio" id="recommend">No
+</label>
+<label for="recommend-3">
+<input type="recommend-3">
+<input type="radio" id="recommend">May be
+</label>
+</div>
+<div class="form-control">
+<label>language and framework known
+<small>(check all that type)</small>
+</label>
+<label for="inp-1">
+<input type="checkbox" name="inp">C
+</label>
+<label for="inp-2">
+<input type="checkbox" name="inp">C++
+</label>
+<label for="inp-3">
+<input type="checkbox" name="inp">Java
+</label>
+<label for="inp-4">
+<input type="checkbox" name="inp">python
+</label>
+<label for="inp-5">
+<input type="checkbox" name="inp">Javascript
+</label>
+<label for="inp-6">
+<input type="checkbox" name="inp">React
+</label>
+<label for="inp-7">
+<input type="checkbox" name="inp">Angular
+</label>
+<label for="inp-8">
+<input type="checkbox" name="inp">Django
+</label>
+<label for="inp-9">
+<input type="checkbox" name="inp">Spring
+</label>
+<label for="inp-10">
+<input type="checkbox" name="inp">C#
+</label>
+<div class="form-control">
+<label for="comment">any comment or suggestions</label>
+<textarea name="comment" id="comment" placeholder="enter your comment"></textarea>
+</div>
+<button type="submit" value="submit">submit</button>
+</div>
+</form>
+</body>
+</html>

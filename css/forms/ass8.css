@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+  }
+body{
+  border: 2px black;
+}
+.me {
+    color: rgb(0, 0, 5);
+    border: rgb(232, 238, 231);
+    border-width: 10cm;
+    background-color: rgb(241, 238, 238);
+    border-radius: 0cm;
+    height: px;
+}
+
+.first {
+    background-color: rgb(152, 51, 51);
+    height: 40px;
+}
+
+.co {
+    color: rgb(92, 23, 23);
+}

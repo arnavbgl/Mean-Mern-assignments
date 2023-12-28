@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="ass8.css">
+    <!-- <style>
+       
+    </style> -->
+</head>
+
+<body>
+    <h2 class="first"><u>
+            <center>Registration Form</center>
+        </u></h2>
+    <div class="me">
+        <center>
+
+            <div class="co">
+                <b>Name:</b><input type="text" name="myname" id="name" placeholder="Enter your name">
+            </div>
+            <br>
+            <div class="co">
+                <b>Father's Name:</b><input type="text" name="myname" placeholder="Enter your Father's name">
+            </div>
+            <br>
+            <div class="co">
+                <b>Mother's Name:</b><input type="text" name="myname" placeholder="Enter your Mother's name">
+            </div>
+            <br>
+            <div class="co">
+                <b>Email:</b><input type="email" name="mymail" placeholder="Enter your mail">
+            </div>
+            <br>
+            <div class="co">
+                <label for="mob"><b>Mobile Number:</b></label>
+                <select>
+                    <option selected class="co">+91</option>
+                </select>
+                <input type="tel" maxlength="10" pattern="(0-9)" required placeholder="Enter your Mobile number">
+            </div>
+            <br>
+            <div class="co">
+                <b>Gender:</b><input type="radio" name="mygender">Male <input type="radio" name="mygender">Female <input
+                    type="radio" name="mygender">Other
+            </div>
+            <br>
+            <div class="co">
+                <b>Hobbies:</b><input type="checkbox" name="mytext">Coding<input type="checkbox"> Reading<input
+                    type="checkbox" name="mytext">Traveling
+            </div>
+            <br>
+            <div class="co">
+                <b>Date of Birth:</b><input type="date" name="mydate">
+            </div>
+            <br>
+            <div class="co">
+                <b>Course Applied: </b><input type="radio" name="mytext"> B.Tech<input type="radio"
+                    name="mytext">B.Arch<input type="radio" name="mytext">BCA<input type="radio" name="mytext">BBA
+                <input type="radio" name="mytext"> Other
+                <!--<select name="Course Applied">
+                <option>Btech</option>
+                <option>BBA</option>
+                <option>BCA</option>
+                <option>B.Arch</option>
+                <option>B.Pharma</option>
+                <option>Other</option>
+            </select>-->
+            </div>
+            <br>
+            <div class="co">
+                <table>
+                    <b>Academic:</b>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Class/Degree</th>
+                        <th>Marks</th>
+                        <th>Year</th>
+                        <th>Percentage%</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="mytext" maxlength="2"> </td>
+                        <td><input type="text" name="mytext"></td>
+                        <td><input type="number" name="marks"></td>
+                        <td><input type="number" name="number"></td>
+                        <td><input type="text" name="Percentage%"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="mytext" maxlength="2"></td>
+                        <td><input type="text" name="mytext"></td>
+                        <td><input type="number" name="marks"></td>
+                        <td><input type="number" name="number"></td>
+                        <td><input type="text" name="Percentage%"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="mytext"></td>
+                        <td><input type="text" name="mytext"></td>
+                        <td><input type="number" name="marks"></td>
+                        <td><input type="number" name="number"></td>
+                        <td><input type="text" name="Percentage%"></td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div class="co"><b>Address:</b><br><textarea cols="30" rows="4" placeholder="Enter your Address"></textarea>
+            </div>
+            <br>
+            <div class="co">
+                <input type="submit" value="Submit"> <input type="reset" value="Reset">
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>

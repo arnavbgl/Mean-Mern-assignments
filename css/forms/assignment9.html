@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+
+    </head>
+    <link rel="stylesheet" href="ass9.css">
+    <body>
+        <!-- Title of the form -->
+        <h2>Sponsor Registration </h2>
+        
+        <!-- Container to hold left and right sections -->
+        <div class="container">
+            
+            <!-- Left section containing fields before the vertical line -->
+            <div class="left">
+                <form  action="backend.php" class="form">
+                    <!-- Fields on the left side -->
+                    <label for="prefix">
+                       <div >Prefix
+                           <input type="text" class="prefix">
+                        </div>
+                    </label><br>
+                    <label for="Name">
+                        <div >Name
+                            <input type="text" class="FName" placeholder="First Name" >
+                            <input type="text" class="LName" placeholder="Last Name">
+                         </div>
+                     </label><br>
+                     <label for="pp">
+                        <div >Preferred Pronouns
+                            <input type="text" class="ppronouns">
+                         </div>
+                     </label><br>
+                     <label for="email">
+                        <div >Email
+                            <input type="Email" class="Email" placeholder="xyz@gmail.com">
+                        </div>
+                     </label><br>
+                     <label for="wp">
+                        <div > Work Phone
+                            <input type="text" class="Wphone">
+                        </div>
+                     </label><br>
+                     <label for="cp">
+                        <div >Cell Phone
+                            <input type="text" class="cphone">
+                        </div>
+                     </label><br>
+                     <label for="jt">
+                        <div >Job Title
+                            <input type="text" class="Jtitle">
+                        </div>
+                     </label><br>
+                     <label for="company">
+                        <div >Company 
+                            <input type="text" class="Company">
+                        </div>
+                     </label><br>
+                     <label for="FBA">
+                        <div >Full Business Address <br> <br>
+                            <input type="text" class="FBA">
+                        </div>
+                     </label><br>
+                     <label for="cweb">
+                        <div>Company Website <br> 
+                            <input type="text" class="CW" placeholder="www.xyz.com" style="margin-top: 8px;">
+                        </div>
+                     </label><br>
+                    
+                </form>
+            </div>
+            
+            <!-- Vertical line to visually separate left and right sections -->
+            <div class="vline"></div>
+            
+            <!-- Right section containing fields after the vertical line -->
+            <div class="right">
+                <form action="backend.php" class="form">
+                    <!-- Fields on the right side -->
+                    <label for="cd">
+                        <div>Company Description <br> <br>
+                            <input type="text" class="cd">
+                        </div>
+                    </label><br>
+                    <label for="cfp">
+                        <div>Company Facebook Page <br> <br>
+                            <input type="text" class="cfp">
+                        </div>
+                    </label><br>
+                    <label for="cth">
+                        <div> Company Twitter Handle <br> <br>
+                            <input type="text" class="cth">
+                        </div>
+                    </label><br>
+                    <label for="clh">
+                        <div>Company Linkedin Handle <br> <br>
+                            <input type="text" class="clh">
+                        </div>
+                    </label><br>
+                    <label for="sl">
+                        <div>Sponsorship Level <br> <br>
+                            <input type="radio" name="slevel">Gold <br>
+                            <input type="radio" name="slevel">Diamond <br>
+                            <input type="radio" name="slevel">Platinum 
+                        </div>
+                    </label><br>
+
+                    <label for="ag">
+                        <div>Additional Guests(name,email) <br> <br>
+                            <input type="text" class="ag">
+                        </div>
+                    </label>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+    
+
+    </html>

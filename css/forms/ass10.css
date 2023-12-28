@@ -1,0 +1,72 @@
+.form{margin-top: 0px;}
+.vline{
+    border-left: 6px solid grey;
+    height: 650px;
+    margin-right: 10%;
+
+} 
+
+/* Center align the title */
+h2 {
+    text-align: center;
+}
+
+/* Flexbox setup for the container */
+.container {
+    display: flex;
+    justify-content: space-between; /* Spacing between left and right sections */
+    align-items: flex-start; 
+    margin-top: 60px;/* Aligns items to the top of their containers */
+       margin-left: 100px;
+}
+
+/* Styles for left and right sections */
+.left, .right {
+    flex-basis: 45%; /* Adjust the width of each side as needed */
+}
+
+.form {
+    margin-top: 0;
+}
+div{font-size: 20px;}
+.prefix{   
+margin-left: 50px;
+height: 30px;
+width: 264px;
+        }
+.FName{   
+margin-left: 50px;
+height: 30px;
+width: 125px;
+        }
+.LName{   
+margin-left: 2px;
+height: 30px;
+width: 123px;
+        }
+.ppronouns{
+    margin-left: 67px;
+    height: 30px;
+}
+.Email{height: 30px;
+margin-left: 173px;}
+
+.Wphone{height: 30px;
+margin-left: 122px;}
+
+.cphone{height: 30px;
+margin-left: 133px;}
+
+.Jtitle{height: 30px;
+margin-left: 152px;}
+
+.Company{height: 30px;
+    margin-left: 144px;
+}
+
+.FBA{height: 30px;
+width: 365px;}
+
+.CW,.cd,.cfp,.cth,.clh,.ag{height: 30px;
+    width: 365px;}
+

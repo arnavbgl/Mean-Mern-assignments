@@ -1,0 +1,20 @@
+
+/* FOR ASSIGNMENT 12 BY ID'S */
+
+#middle{height: 150px; width: 150px;background-color: orange;padding: 30px;margin-left: 300px ;margin-top: 300px; position: absolute;}
+#top1{height: 150px; width: 150px;background-color: yellow;padding: 30px;margin-left: 20px ;position: absolute;}
+#top2{height: 150px; width: 150px;background-color: yellow;padding: 30px;margin-left: 600px ;position: absolute;}
+#bottom2{height: 150px; width: 150px;background-color: green;padding: 30px;margin-left: 600px ;position: absolute;margin-top: 600px;}
+#bottom1{height: 150px; width: 150px;background-color: green;padding: 30px;margin-left: 40px ;position: absolute;margin-top: 600px;}
+
+
+/* FOR ASSIGNMENT 13 BY CLASS */
+
+.s1{height: 150px;margin-left: 50px;background-color: red;width: 150px;padding: 20px;}
+.s2{height: 150px;margin-left: 240px;background-color: yellow;width: 150px;padding: 20px;}
+.s3{height: 150px;margin-left: 430px;background-color: orange;width: 150px;padding: 20px;}
+.s4{height: 150px;margin-left: 620px;background-color: blue;width: 150px;padding: 20px;}
+
+
+
+

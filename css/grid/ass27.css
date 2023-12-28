@@ -1,0 +1,16 @@
+.main{
+    display: grid;
+    grid: 100px /200px 200px 200px 200px;
+    grid-gap: 50px;
+    background-color: black;
+    padding: 10px;
+    width: 952px;
+    border: 5px solid red;
+}
+
+.num{background-color: blue;
+text-align: center;
+color: white;
+padding: 20px;
+font-size: 30px;
+border: 5px solid yellow;}
